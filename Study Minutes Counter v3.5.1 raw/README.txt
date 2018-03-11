@@ -1,0 +1,1 @@
+Study Minutes Counter v3.5.1 setup should be installed in a location that does not need any administration privilege, e.g. D: or after installation run the program as administrator. Otherwise, it will not be able to create the log file and will fail to quit the program due to the administrator restriction in C:\Program Files (default).

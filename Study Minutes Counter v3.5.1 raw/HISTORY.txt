@@ -1,0 +1,141 @@
+FEATURES.txt from version 1
+====================
+study time counter features:
+=================================
+*Release date: 2016-11-18*
+
+- Start and pause buttons.
+
+- After start the counter starts to count minutes from 0.
+
+- Current and total amounts.
+
+- After pause the counter is paused and the last amount is added to the total amount with remaining it there too.
+
+- Current local time: hh/mm/ss
+
+- Set alarm for certain minutes. When time comes up alarm with sound and screen effects
+
+- Big fonts, large screen, responsive.
+
+- Log file so when I close the program, I do not "lose" the effort. Auto-log feature.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+NEWS.txt from version 2
+====================
+What's new in Study Counter v2.0?
+=================================
+*Release date: 2016-11-29*
+
+- In alarm default value is changed from 360 minutes to 9 minutes.
+
+- In minute counter and alarm if value is 0 or 1 it's "minute" instead of "minutes", eg. 0 minute, 1 minute.
+
+- When clicked x button to close the program, 
+a message box pops up asking if you are sure to close 
+to prevent sudden unintended programs close ups to prevent data lost.
+
+- "Pause" -> "Pause the counter".
+
+- After minute counter or alarm countdown started change the button colors to green (lime);
+and after paused change to red again.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+NEWS.txt from version 3
+====================
+What's new in Study Counter v3.0?
+=================================
+*Release date: 2016-12-2*
+
+- Logs: when you close the program keep the information in a log file.
+
+- Save and open log file from the inside the program.
+
+- Better documentation: HISTORY.txt has been added.
+
+- Release date in NEWS.txt is not forgotten this time.
+
+- In alarm show text like: "< n minute(s) remained" to alarm (3 updates).
+
+- "Stop alarm" -> "Cancel alarm".
+
+- Added a readme file.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+NEWS.txt from version 3.1
+====================
+What's new in Study Counter v3.1?
+=================================
+*Release date: 2016-12-3*
+
+- Save log on pause;
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+NEWS.txt from version 3.2
+====================
+What's new in Study Counter v3.2?
+=================================
+*Release date: 2016-12-4*
+
+- Transitional pop up message that informs "Log saved" on log save;
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+NEWS.txt from version 3.3
+====================
+What's new in Study Counter v3.3?
+=================================
+*Release date: 2016-12-5*
+
+- Alarm windows: unresizable -> transient;
+
+- Change in the code: alarm window geometry method line removed (useless);
+
+- Change in the code: `import tkinter.messagebox.` is replaced with `from tkinter import messagebox`
+(since it needs to be explicitly imported from tkinter, it makes more sense and is more readable I think), and 
+`tkinter.messagebox.` is replaced with `tk.messagebox.` (since we said `import tkinter as tk` at the very top);
+
+- Better readme file: added another option to use the program, and edit in text formatting;
+
+- Change in the exit popup (messagebox) window message: added " (log will be saved)" before the question mark, 
+and "exit" -> "quit";
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+NEWS.txt from version 3.4
+====================
+What's new in Study Counter v3.4?
+=================================
+*Release date: 2016-12-6*
+
+- On the counter label: "currently" -> "Current:", "totally" -> "Total:".
+
+- Change in the code: added a new function for the transitional pop-up window 
+that tells "Log saved"; placed this function under the main log save function, 
+so it will pop up only when a log save is successful.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+NEWS.txt from version 3.5
+====================
+What's new in Study Counter v3.5?
+=================================
+*Release date: 2016-12-7*
+
+- Log save info box is now topmost (True), so when you focus in the main window, it does not go to background.
+
+- Log save info box is now moving with the main window.
+
+- Toplevel windows' parents have explicitly been made main window now, although it was the same, implicitly.
+
+- Main window title is changed from "Study Time Counter" to "Study Minutes Counter" because of the actual name
+of the program.
+
+- Menubar menus do not have tear-off feature anymore.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------

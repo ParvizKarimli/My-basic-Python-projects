@@ -1,0 +1,9 @@
+What's new in Study Counter v3.5.1?
+=================================
+*Release date: 2016-12-8*
+
+- On minute counter label: 'minute' -> 'minutes' when not 0 or 1.
+
+--------------------------------------------------------------------
+Refer to HISTORY.txt for additional information on earlier releases.
+--------------------------------------------------------------------
